@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: kwhite,
                             borderRadius: BorderRadius.circular(5.r),
                           ),
-                          height: 50.h,
+                          height: 50,
                           width: 570.w,
                           child: menuScrollable),
                     )
@@ -93,15 +93,30 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     height: 40,
                     width: 160,
-                    color: Colors.blue,
-                    child: const Center(child: Text("Previous")),
+                    color: ksandal,
+                    child: const Center(
+                        child: Text(
+                      "Previous",
+                      style: TextStyle(
+                          color: kwhite,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w400),
+                    )),
                   ),
                   kwidth,
                   Container(
                     height: 40,
                     width: 160,
-                    color: Colors.blue,
-                    child: const Center(child: Text("Next")),
+                    color: korange,
+                    child: const Center(
+                      child: Text(
+                        "Next",
+                        style: TextStyle(
+                            color: kwhite,
+                            fontSize: 16,
+                            fontWeight: FontWeight.w400),
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -125,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               Container(
-                height: 500.h,
+                height: 450.h,
                 width: double.infinity,
                 color: Colors.black,
                 child: Padding(

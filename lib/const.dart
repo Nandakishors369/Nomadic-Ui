@@ -6,6 +6,8 @@ const kpink = Color(0xFFef4b78);
 const kwhite = Color(0xFFf9f9f9);
 const kbrown = Color(0xFF63451a);
 const kyellow = Colors.yellow;
+const ksandal = Color(0xFFf2cc9f);
+const korange = Color(0xFFec795b);
 
 //sizes
 //width
